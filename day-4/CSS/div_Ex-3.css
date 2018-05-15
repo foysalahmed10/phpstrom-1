@@ -1,0 +1,109 @@
+body{
+    background: blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: auto;
+    background: beige;
+    width: 90%;
+    height: auto;
+}
+.wrapper .logo img{
+    width: 20%;
+    height: 200px;
+    float: left;
+    background: azure;
+    margin-right: .2%;
+
+}
+.wrapper .banner img{
+    width: 79.8%;
+    height: 200px;
+    float: left;
+
+}
+
+
+.wrapper .manu{
+    background: orange;
+    height: 41px;
+    float: left;
+    width: 100%;
+    margin-top: 2px;
+
+}
+.manu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /*overflow: hidden;*/
+
+}
+.manu ul li{
+    float: left;
+    /*padding: 10px;*/
+
+
+}
+.manu ul li a{
+    color: beige;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 42px;
+    display: block;
+    font-size: 16px;
+    border-right: #cdcbba solid 1px;
+    border-left: #8b897c solid 1px ;
+    transition: 1s;
+
+}
+.manu ul li a:hover{
+    background: #cd125f;
+    /*padding-bottom: 2px;*/
+    /*margin-top: 2px;*/
+    border-radius: 4px;
+
+
+}
+.manu ul li:first-child a{
+    border-left: none;
+    margin-left: 2px;
+
+}
+.manu ul li:last-child a{
+    border-right: none;
+}
+
+.content .left_Sidebar{
+    float: left;
+    height: 500px;
+    width: 20%;
+    background: darkmagenta;
+    margin-top: 2px;
+
+}
+.content .mainContent{
+    float: left;
+    height: 500px;
+    width: 59.6%;
+    margin-top: 2px;
+    margin-left: 2px;
+    background-color: crimson;
+
+}
+.content .right_sidebar{
+    float: left;
+    height: 500px;
+    width: 20%;
+    background: darkmagenta;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+ .wrapper .footer{
+    float: left;
+    height: 50px;
+     width: 100%;
+     margin-top: 2px;
+     background-color: darkblue;
+}

@@ -1,0 +1,76 @@
+body{
+    background-color: blanchedalmond;
+    margin: 0;
+}
+.main_Div{
+    width: 90%;
+    height: 750px;
+    background-color: beige;
+    margin: auto;
+}
+.header .logo{
+    width: 20%;
+    height: 150px;
+    background-color: chocolate;
+    float: left;
+}
+.header .banner{
+    width: 59.6%;
+    height: 150px;
+    background-color: crimson;
+    float: left;
+    margin-left: .2%;
+}
+.login .login_top{
+    width: 20%;
+    height: 74px;
+    background-color: brown;
+    float: left;
+    margin-left: .2%;
+}
+.login .login_bottom{
+    width: 20%;
+    height: 74px;
+    background: darkgreen;
+    float: left;
+    margin-top: 2px;
+    margin-left: .2%;
+}
+.main_Div .manu{
+    width: 100%;
+    height: 50px;
+    margin-top: .2%;
+    background-color: orangered;
+    float: left;
+}
+.content .left_Sidebar{
+    width: 20%;
+    height: 500px;
+    background-color: darkmagenta;
+    float: left;
+    margin-top: .2%;
+}
+.content .mainContent{
+    width: 59.6%;
+    height: 500px;
+    background: yellowgreen;
+    float: left;
+    margin-top: .2%;
+    margin-left: .2%;
+}
+.content .right_sidebar{
+    width: 20%;
+    height: 500px;
+    background-color: darkmagenta;
+    margin-left: .2%;
+    margin-top: .2%;
+    float: left;
+}
+.main_Div .footer{
+    width: 100%;
+    height: 50px;
+    background: navy;
+    float: left;
+    margin-top: .2%;
+
+}
