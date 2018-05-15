@@ -1,0 +1,49 @@
+body{
+    background-color: blanchedalmond;
+    margin: 0px;
+}
+.logo{
+    width: 20%;
+    height: 150px;
+    float: left;
+    background-color: brown;
+    margin-right: .2%;
+}
+.header{
+    width: 79.8%;
+    height: 150px;
+    float: left;
+    background-color: chocolate;
+}
+.manu{
+    height: 50px;
+    width: 100%;
+    float: left;
+    background-color: chartreuse;
+    margin-top: .2%;
+    margin-bottom: .2%;
+}
+.sideber{
+    height: 500px;
+    width: 20%;
+    float: left;
+    background-color: blue;
+    margin-right: .2%;
+}
+.mainContent{
+    height: 500px;
+    width: 79.8%;
+    float: left;
+    background-color: blueviolet;
+}
+.footer{
+    height: 50px;
+    width: 100%;
+    float: left;
+    background-color: crimson;
+    margin-top: .2%;
+}
+.parents{
+    width: 90%;
+    margin: auto;
+}
