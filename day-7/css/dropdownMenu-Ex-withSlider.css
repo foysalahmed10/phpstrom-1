@@ -1,8 +1,9 @@
-*{
+body{
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
+    background-image: url(../img/bg-pic.jpg);
 }
 .wrapper{
     width: 80%;
@@ -23,6 +24,8 @@
 .main_manu ul li{
     float: left;
     position: relative;
+    list-style: none;
+
 
 }
 .main_manu ul li a{
@@ -31,6 +34,7 @@
     display: block;
     border-right: #444444 solid 1px;
     border-left: #cdcbba solid 1px;
+    text-decoration: none;
 
 
 }
