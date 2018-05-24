@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+}
+.wrapper .banner img{
+    height: 300px;
+    width: 100%;
+}
+.wrapper .main_manu{
+    background: #8b897c;
+    height: 40px;
+}
+.main_manu ul{
+    margin: 0;
+    padding: 0;
+}
+.main_manu ul li{
+    float: left;
+    position: relative;
+
+}
+.main_manu ul li a{
+    color: #eeeeee;
+    padding: 8px 38.3px;
+    display: block;
+    border-right: #444444 solid 1px;
+    border-left: #cdcbba solid 1px;
+
+
+}
+.main_manu ul li:last-child a{
+    border-right: none;
+}
+.main_manu ul li:first-child a{
+    border-left: none;
+}
+.main_manu ul li a:hover{
+    background-color: #cd125f;
+}
+.main_manu .sub_menu{
+    position: absolute;
+    background: #8b897c;
+    top: 40px;
+    border-top: #eeeeee 1px solid;
+    width: 159.8px;
+    display: none;
+
+
+}
+.sub_menu ul li{
+    float: left;
+
+}
+.main_manu .sub_menu li a{
+    border-right: none;
+    border-left: none;
+    border-bottom: #444444 1px solid;
+    padding: 6px 36.9px;
+
+
+}
+.main_manu .sub_menu li:last-child a{
+    border-bottom: none;
+
+}
+.main_manu ul li:hover .sub_menu{
+    display: block;
+}
+.slider{
+    height: 300px;
+    width: 100%;
+    animation: slider;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+@keyframes slider {
+    0%{background:url(../img/pic1.jpg) no-repeat center center /cover}
+    10%{background:url(../img/pic2.jpg) no-repeat center center /cover}
+    20%{background:url(../img/pic3.jpg) no-repeat center center /cover}
+    30%{background:url(../img/pic4.jpg) no-repeat center center /cover}
+    40%{background:url(../img/pic5.jpg) no-repeat center center /cover}
+    50%{background:url(../img/pic6.jpg) no-repeat center center /cover}
+    60%{background:url(../img/pic7.jpg) no-repeat center center /cover}
+    70%{background:url(../img/pic8.jpg) no-repeat center center /cover}
+    80%{background:url(../img/pic9.jpg) no-repeat center center /cover}
+    90%{background:url(../img/pic10.jpg) no-repeat center center /cover}
+    100%{background:url(../img/pic11.jpg) no-repeat center center /cover}
+
+}
